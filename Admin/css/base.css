@@ -1,0 +1,104 @@
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Marcellus', serif;
+    font-size: 62.5%;   
+    scroll-behavior: smooth;
+}
+:root{
+    --white-color:#fff;
+    --Brown-color:#97552c;
+}
+
+@keyframes fadeIn {
+    from
+    {
+        opacity: 0.8;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+@keyframes fadeIn1{
+    0%
+    {
+        transform:scaleX(0);
+    }
+    to
+    {
+        transform:scaleX(1);
+    }
+}
+@keyframes icon__section{
+    from{
+        transform:rotateY(0)
+    }
+    to{
+        transform:rotateY(1turn)
+    }
+}
+@keyframes scale {
+    from
+    {
+        transform: scale(1.5);
+        opacity: 0.5;
+    }
+    to
+    {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes scaleOut {
+    from
+    {
+        transform: scale(1);
+        opacity: 1;
+    }
+    to
+    {
+        transform: scale(1.5);
+        opacity: 0.8;
+    }
+}
+@keyframes routeClose {
+    from
+    {
+        transform: rotate(0);
+    }
+    to 
+    {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes changeheader {
+    from
+    {
+        opacity: 0.5;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+@keyframes bigbabol {
+    0% {
+      transform: scale(1);
+    }
+    33% {
+      transform: scale(1.2);
+    }
+    66% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
