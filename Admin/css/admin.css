@@ -369,6 +369,12 @@ input[type='text']
 }
 .table_header-name-list img
 {
+    width: 35%;
+    border-radius: 50%;
+    transform: translateX(-5px);
+}
+
+.table_header-name-list .User-img{
     width: 15%;
     border-radius: 50%;
     transform: translateX(-5px);
@@ -385,6 +391,12 @@ input[type='text']
 .created-day-order,
 .status-order{
     text-align: center;
+}
+
+.Pass_user {
+    background: none;
+    border: none;
+    font-size: 2.4rem;
 }
 
 .option_select {
@@ -484,6 +496,26 @@ input[type='text']
     background-color: #4bacb8;
     border:none;
 }
+
+.table_header-name-list a
+{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #fff;
+    padding: 4px 13px;
+    border-radius: 20px;
+    background-color: #0ff222;
+}
+
+.product-name-list {
+    display: inline;
+}
+
+.status-list,
+.edit-list {
+    text-align: center;
+}
+
 .table_header-name-list a:hover
 {
     color: #fff;
